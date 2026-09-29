@@ -1,0 +1,23 @@
+
+http://localhost:8080/swagger-ui/index.html
+
+create 
+{
+  "code": "TEST100",
+  "discount": 10.00,
+  "minBasketValue": 50.00
+}
+
+apply coupon
+
+{
+  "code": "TEST100",
+  "basket": {
+    "value": 150.00
+  }
+}
+
+Get coupons call
+{
+  "codes": ["TEST100"]
+}
